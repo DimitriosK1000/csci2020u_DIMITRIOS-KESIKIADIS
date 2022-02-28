@@ -11,7 +11,7 @@ public class RegistrationForm extends Application {
     public void start(Stage primaryStage) throws Exception {
 
         FXMLLoader fxmlLoader = new FXMLLoader(RegistrationForm.class.getResource("registrationform-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        Scene scene = new Scene(fxmlLoader.load(), 300, 300);
         primaryStage.setTitle("Registration Form");
         primaryStage.setScene(scene);
         primaryStage.show();
