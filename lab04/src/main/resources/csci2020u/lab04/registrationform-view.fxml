@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="csci2020u.lab04.RegistrationController"
+            prefHeight="400.0" prefWidth="600.0" hgap="15" vgap="15">
+    <Label text="Username:" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <Label text="Password:" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <Label text="Full Name:" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    <Label text="Email:" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+    <Label text="Phone #:" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+    <Label text="Date of Birth:" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+    <TextField fx:id="usernameField" promptText="MrMan1000" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+    <TextField fx:id="passwordField" promptText="Password1234" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+    <TextField fx:id="fullNameField" promptText="Henry Johnson" GridPane.columnIndex="2" GridPane.rowIndex="3"/>
+    <TextField fx:id="emailField" promptText="hrjohnson@something.com" GridPane.columnIndex="2" GridPane.rowIndex="4"/>
+    <TextField fx:id="phoneNumField" promptText="###-###-####" GridPane.columnIndex="2" GridPane.rowIndex="5"/>
+    <DatePicker fx:id="datePickerField" GridPane.columnIndex="2" GridPane.rowIndex="6"/>
+    <Button fx:id="doRegistrationButtonPressed" text="Register" GridPane.columnIndex="2" GridPane.rowIndex="7" onAction="#doRegistrationButtonPressed"/>
+
+</GridPane>
