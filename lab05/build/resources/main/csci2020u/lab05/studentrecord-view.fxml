@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane hgap="15" prefHeight="400.0" prefWidth="600.0" vgap="15" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csci2020u.lab05.StudentRecordController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <TableView fx:id="studentRecordTable" prefHeight="399.0" prefWidth="608.0">
+        <columns>
+          <TableColumn fx:id="colSID" prefWidth="108.60000765323639" text="SID" />
+          <TableColumn fx:id="colAssignments" prefWidth="104.20000457763672" text="Assignments" />
+            <TableColumn fx:id="colMidterm" prefWidth="95.60003662109375" text="Midterm" />
+            <TableColumn fx:id="colFinalExam" prefWidth="95.39996337890625" text="Final Exam" />
+            <TableColumn fx:id="colFinalMark" prefWidth="89.20001220703125" text="Final Mark" />
+            <TableColumn fx:id="colLetterGrade" prefWidth="111.60000610351562" text="Letter Grade" />
+        </columns>
+      </TableView>
+   </children>
+</GridPane>
