@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csci2020u.midtermquestion.SHPandAnimationController">
+   <children>
+      <Button fx:id="doAnimation" layoutX="254.0" layoutY="142.0" mnemonicParsing="false" onAction="#doAnimation" prefHeight="28.0" prefWidth="91.0" text="Animation" />
+      <Button fx:id="doGraphics" layoutX="254.0" layoutY="186.0" mnemonicParsing="false" onAction="#doGraphics" prefHeight="28.0" prefWidth="91.0" text="2D Graphics" />
+      <Button fx:id="doAbout" layoutX="254.0" layoutY="229.0" mnemonicParsing="false" onAction="#doAbout" prefHeight="28.0" prefWidth="91.0" text="About" />
+      <Label layoutX="133.0" layoutY="39.0" text="Midterm Part 2">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="212.0" layoutY="315.0" text="By: Jimmy Kesikiadis (100782809)" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+    <student id="100782809">
+            <name>Jimmy Kesikiadis</name>
+            <email>jimmydkay@gmail.com</email>
+    </student>
+    <software-description>
+        This is the XML file for the About page. This is all part of Part 2 of the midterm.
+    </software-description>
+</info>

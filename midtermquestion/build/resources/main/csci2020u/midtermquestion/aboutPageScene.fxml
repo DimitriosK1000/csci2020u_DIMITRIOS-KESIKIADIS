@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csci2020u.midtermquestion.SHPandAnimationController">
+   <children>
+      <Button layoutX="248.0" layoutY="321.0" mnemonicParsing="false" onAction="#goToMain" text="Go back to main" />
+      <Label layoutX="98.0" layoutY="21.0" text="About Page Scene">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="48.0" layoutY="95.0" prefHeight="104.0" prefWidth="505.0" text="Was unable to create labels to display information, but I was able to get and print the&#10;information to the terminal, except for student id." />
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csci2020u.midtermquestion.SHPandAnimationController">
+   <children>
+      <Button layoutX="248.0" layoutY="312.0" mnemonicParsing="false" onAction="#goToMain" text="Go back to main" />
+      <Label layoutX="94.0" layoutY="27.0" text="2D Graphics Scene">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="74.0" layoutX="264.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="17.0" />
+      <CubicCurve controlX1="-15.0" controlX2="6.0" controlY1="-96.39999389648438" controlY2="3.600006103515625" endX="42.0" endY="-41.0" fill="DODGERBLUE" layoutX="239.0" layoutY="271.0" startX="16.0" startY="-47.399993896484375" stroke="BLACK" />
+      <Circle fill="DODGERBLUE" layoutX="301.0" layoutY="236.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="86.0" layoutX="320.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="17.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="67.0" layoutX="344.0" layoutY="150.0" rotate="52.0" stroke="BLACK" strokeType="INSIDE" width="17.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="63.0" layoutX="341.0" layoutY="185.0" rotate="132.6" stroke="BLACK" strokeType="INSIDE" width="17.0" />
+      <Label layoutX="195.0" layoutY="108.0" text="Drawing Initials: J.K for Jimmy Kesikiadis" />
+   </children>
+</AnchorPane>
