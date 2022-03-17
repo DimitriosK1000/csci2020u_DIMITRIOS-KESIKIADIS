@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csci2020u.lab06.Lab06Controller">
+   <children>
+      <PieChart fx:id="pieChart" layoutX="450.0" layoutY="140.0" prefHeight="320.0" prefWidth="335.0" title="Purchases Made by Age Group" />
+      <BarChart fx:id="barChart" layoutX="14.0" layoutY="100.0" prefHeight="400.0" prefWidth="414.0" title="Housing Prices vs Commercial Prices">
+        <xAxis>
+          <CategoryAxis label="Year" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="Price" side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Label layoutX="268.0" layoutY="29.0" text="Lab06 Bar and Pie Chart">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
