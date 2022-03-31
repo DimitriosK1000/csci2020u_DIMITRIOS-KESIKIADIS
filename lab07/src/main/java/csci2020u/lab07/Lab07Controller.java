@@ -42,7 +42,7 @@ public class Lab07Controller {
                         break;
 
                     case "SPECIAL MARINE":
-                        spmarine_data = 0;
+                        spmarine_data++;
                         break;
 
                     case "TORNADO":
